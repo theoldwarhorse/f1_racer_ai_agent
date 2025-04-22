@@ -29,7 +29,7 @@ To run the app locally.
 3. Run the container to expose the streamlit frontend on http://localhost:8501: docker run -d -p 8501:8501 aiagent:1.0.0
 4. Get the container_id: docker ps
 5. login to the container to run the model: docker exec -it <container_id> bash
-6. Run model: python 3 -m f1_agent
+6. Run model: python3 -m f1_agent
 Note running the model may take a some time depending on the spects of your machine.
 If you have a GPU it may take between 10 and 15 minutes.
 If you do not have a GPU it is recommended you use the mock client and sample data.
